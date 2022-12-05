@@ -1,0 +1,63 @@
+iframe.A {
+  border: 1px;
+  width: 100%;
+  height: 80%;
+  margin-top: 60px;
+  position: absolute;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  background-size: cover;
+  font-size: 13px;
+}
+
+#menu,
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu {
+  margin: auto;
+  background: none;
+}
+
+#menu li {
+  float: right;
+  position: relative;
+  padding-bottom: none;
+}
+
+#menu li:hover {
+  border-radius: 40px 40px 40px 40px;
+  cursor: pointer;
+  background: rgba(121, 121, 121, 0.274);
+  transition: 0.5s;
+}
+
+#menu a {
+  float: right;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font-family: Times new roman;
+  text-decoration: none;
+  color: #a8a773fb;
+}
+
+.nav-left,
+.nav-right {
+  padding-left: 10px;
+  color: #a8a773fb;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.nav-right {
+  margin-left: auto;
+  margin-right: 0;
+}

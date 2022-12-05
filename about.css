@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.text {
+  padding-top: 5px;
+  padding-bottom: 35px;
+  background-color: rgba(121, 121, 121, 0.274);
+  border-radius: 40px 40px 40px 40px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.paper-text {
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 0;
+  background-color: rgba(121, 121, 121, 0.274);
+  border-radius: 40px 40px 40px 40px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.paper-text1 {
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  background-color: rgba(121, 121, 121, 0.274);
+  border-radius: 40px 40px 40px 40px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.container-last {
+  text-align: center;
+  color: #a8a773fb;
+  font-family: "Jacques Francois Shadow", cursive;
+  font-size: 50px;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 0;
+  background-color: rgba(121, 121, 121, 0.274);
+  border-radius: 40px 40px 40px 40px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+h1 {
+  padding-bottom: 10px;
+  padding-right: 300px;
+  font-size: 25px;
+  font-family: "Jacques Francois Shadow", cursive;
+  text-align: right;
+  color: #a8a773fb;
+  animation-name: slidein;
+  animation-duration: 1s;
+}
+h2 {
+  padding-bottom: 10px;
+  padding-right: 300px;
+  font-size: 25px;
+  font-family: "Jacques Francois Shadow", cursive;
+  text-align: right;
+  color: #a8a773fb;
+  animation-name: slidein;
+  animation-duration: 1s;
+}
+h3 {
+  padding-bottom: 10px;
+  padding-right: 750px;
+  font-size: 25px;
+  font-family: "Jacques Francois Shadow", cursive;
+  text-align: right;
+  color: #a8a773fb;
+}
+
+p {
+  margin-right: 100px;
+  line-height: 40px;
+  letter-spacing: normal;
+  font-size: 25px;
+  font-family: "Jacques Francois Shadow", cursive;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #a8a773fb;
+}
+
+span {
+  display: flex;
+  margin-right: 100px;
+  line-height: 40px;
+  letter-spacing: normal;
+  font-size: 25px;
+  font-family: "Jacques Francois Shadow", cursive;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #a8a773fb;
+}
+.paper-text1 {
+  padding-left: 80px;
+  line-height: 40px;
+  letter-spacing: normal;
+  font-size: 25px;
+  font-family: "Jacques Francois Shadow", cursive;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #a8a773fb;
+}
+
+img {
+  height: 100%;
+  width: 60%;
+  padding: 5px;
+  display: block;
+  padding-left: 100px;
+  transition: transform 0.2s;
+}
+.paper-text > .cover > .pic-left > img:hover,
+.paper-text1 > .cover-text > .pic-right > img:hover {
+  transform: scale(1.5);
+}
+.flex-box {
+  display: flex;
+}
+.left-box,
+.right-text {
+  padding: 10px;
+  width: 50%;
+}
+
+.cover {
+  display: flex;
+}
+.pic-left,
+.text-right {
+  padding: 10px;
+  width: 50%;
+}
+.cover-text {
+  display: flex;
+}
+.pic-right,
+.text-left {
+  padding: 10px;
+  width: 50%;
+}
+
+iframe.A {
+  height: 100%;
+  width: 80%;
+  border: 3px solid #a8a773fb;
+  border-style: double;
+  padding: 10px;
+  display: block;
+  margin-left: 40px;
+  margin-right: auto;
+  border-radius: 40px 40px 40px 40px;
+}
+.pic {
+  padding-left: 690px;
+  padding-left: 600px;
+  padding-top: 15px;
+  display: flex;
+}
+
+#expandedImage {
+  height: 300px;
+}
+.grid {
+  margin-left: auto;
+  margin-right: 80px;
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+
